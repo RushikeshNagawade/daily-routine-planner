@@ -1,0 +1,49 @@
+package com.personal.project.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.personal.project.dto.GoalDto;
+import com.personal.project.service.GoalService;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class GoalServiceImpl implements GoalService{
+	
+	private GoalRepository goalRepository;
+	
+	@Override
+	public GoalDto createGoal(GoalDto goalDto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public GoalDto getGoalById(Long gid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<GoalDto> getAllGoals() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public GoalDto updateGoal(Long gid, GoalDto updatedGoal) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteGoal(Long gid) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

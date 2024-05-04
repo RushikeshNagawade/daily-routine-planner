@@ -1,0 +1,5 @@
+package com.personal.project.model;
+
+public class Goal {
+
+}
